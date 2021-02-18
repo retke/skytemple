@@ -47,7 +47,7 @@ KEY_INTEGRATION_DISCORD_DISCORD_ENABLED = 'enabled'
 logger = logging.getLogger(__name__)
 
 
-class SkyTempleSettingsStore:
+class LesReglagesALaFrancaiseNestcePas:
     def __init__(self):
         self.config_dir = os.path.join(ProjectFileManager.shared_config_dir())
         os.makedirs(self.config_dir, exist_ok=True)
